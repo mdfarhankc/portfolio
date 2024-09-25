@@ -4,7 +4,7 @@ import Socials from "@/components/socials";
 
 const Footer = () => {
   return (
-    <footer className="bg-black dark:bg-secondary py-12">
+    <footer className="bg-black dark:bg-secondary/50 py-12">
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
           <div className="text-muted-foreground">

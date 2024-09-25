@@ -6,7 +6,7 @@ import Socials from "@/components/socials";
 
 const Hero = () => {
   return (
-    <section className="py-24 h-[90vh] md:pt-28 dark:bg-black bg-orange-50 dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
+    <section className="py-24 h-[90vh] md:pt-28 dark:bg-inherit bg-orange-50 dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div

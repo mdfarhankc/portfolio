@@ -3,13 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-
-const links = [
-  { path: "/", name: "Home" },
-  { path: "/projects", name: "My Projects" },
-  { path: "/skills", name: "Skills" },
-  { path: "/contact", name: "Contact" },
-];
+import { links } from "@/datas/navlink";
 
 const NavLink = ({
   containerStyle = "flex justify-between items-center gap-x-5 bg-secondary p-6",

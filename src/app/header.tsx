@@ -18,9 +18,7 @@ const Header = () => {
         setIsScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
-
     // Cleanup the event listener on component unmount
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -28,7 +26,7 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 left-0 right-0 z-50 transition-all px-3 py-2 dark:bg-black bg-orange-50",
+        "sticky top-0 left-0 right-0 z-50 transition-all px-3 py-2 dark:bg-inherit bg-orange-50",
         isScrolled && "bg-transparent backdrop-blur-md border-b"
       )}
     >

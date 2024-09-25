@@ -64,6 +64,8 @@ const config: Config = {
         dots_dark: "url(/dots-dark.svg)",
         about_light: "url(/about/coding-light.png)",
         about_dark: "url(/about/coding-dark.png)",
+        contact_image_light: "url(/contact/image-dark.png)",
+        contact_image_dark: "url(/contact/image-light.png)",
       },
     },
   },
