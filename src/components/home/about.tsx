@@ -11,7 +11,6 @@ import {
 } from "@/datas/about";
 
 const About = () => {
-  // Type the `arr` parameter and the `title` to ensure type safety
   const getData = (
     arr: QualificationData[],
     title: string
