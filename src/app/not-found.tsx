@@ -19,7 +19,7 @@ export default function NotFound() {
       </div>
       <Image
         className="hidden md:flex"
-        src={"/error.svg"}
+        src={"./error.svg"}
         width={400}
         height={200}
         alt="error image"
