@@ -24,11 +24,17 @@ const Hero = () => {
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto">
               <Link href={`/contact`}>
                 <Button className="gap-x-2">
-                  Contact me <Send size={15} />{" "}
+                  Contact me <Send size={15} />
                 </Button>
               </Link>
-              <Button variant={`cv`} className="gap-x-2">
-                Download My CV <Download size={15} />{" "}
+              <Button variant={`cv`} asChild>
+                <a
+                  href="./hero/resume.pdf"
+                  className="gap-x-2"
+                  download="Farhan-CV.pdf"
+                >
+                  Download My CV <Download size={15} />
+                </a>
               </Button>
             </div>
             <Socials

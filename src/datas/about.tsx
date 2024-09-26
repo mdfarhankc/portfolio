@@ -88,7 +88,7 @@ const infoDatas: InfoData[] = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "+91 9895237989",
+    text: "+91 9895*****9",
   },
   {
     icon: <MailIcon size={20} />,
