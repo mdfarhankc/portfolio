@@ -23,7 +23,7 @@ const About = () => {
     <section className="py-12 xl:py-24">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 text-center mx-auto">About Me</h2>
-        <div className="flex flex-col lg:flex-row lg:gap-x-2">
+        <div className="flex flex-col lg:flex-row lg:gap-x-2 mx-5">
           <div className="hidden lg:flex items-center justify-center flex-1 relative">
             <div className="hidden lg:flex bg-about_light dark:bg-about_dark w-[500px] h-[300px] bg-contain bg-top bg-no-repeat" />
           </div>
@@ -149,11 +149,11 @@ const About = () => {
                   </div>
                 </TabsContent>
                 <TabsContent value="skills">
-                  <div className="text-center xl:text-left">
+                  <div className="text-center lg:text-left">
                     <h3 className="h3 mb-8">What I Know</h3>
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
-                      <div className="border-b border-border mb-4"></div>
+                      <div className="border-b border-border mb-4" />
                       <div>
                         {skillData.map((item: string, index: number) => {
                           return (
@@ -164,9 +164,15 @@ const About = () => {
                         })}
                       </div>
                       <div className="flex flex-col gap-y-2 mt-5">
-                        <div className="text-primary">Languages Known</div>
-                        <div className="border-b border-border"></div>
-                        <div>Malayalam, English, Hindi</div>
+                        <div className="text-xl font-semibold mb-2">
+                          Languages
+                        </div>
+                        <div className="border-b border-border mb-4" />
+                        <div className="flex items-center justify-center lg:justify-start gap-x-3">
+                          <Badge className="uppercase">Malayalam</Badge>
+                          <Badge className="uppercase">English</Badge>
+                          <Badge className="uppercase">Hindi</Badge>
+                        </div>
                       </div>
                     </div>
                   </div>

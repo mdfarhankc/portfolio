@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="py-24 h-[90vh] md:pt-28 dark:bg-inherit bg-orange-50 dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2]">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+        <div className="flex justify-between gap-x-8 mx-5">
           <div
             className="flex flex-col justify-center 
                             mx-auto text-center"

@@ -30,20 +30,25 @@ const qualificationDatas: QualificationData[] = [
         qualification: "Bachelor Of Computer Application",
         years: "2019 - 2022",
       },
+      {
+        university: "Nithyananda Bhavan English Medium School",
+        qualification: "XII Computer Science",
+        years: "2017 - 2019",
+      },
     ],
   },
   {
     title: "Experience",
     data: [
       {
-        company: "QUEST INNOVATIVE SOLUTIONS",
-        position: "Python Full Stack Developer",
-        years: "2022 June - 2023 January",
-      },
-      {
         company: "AST SOLUTIONS LLC.",
         position: "Python Developer",
         years: "2023 March - Current",
+      },
+      {
+        company: "QUEST INNOVATIVE SOLUTIONS",
+        position: "Python Full Stack Developer",
+        years: "2022 June - 2023 January",
       },
     ],
   },
