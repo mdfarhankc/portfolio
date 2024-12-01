@@ -10,6 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
+import ContactImage from "@/components/contact/contact-image";
 
 const ContactPage = () => {
   return (
@@ -34,7 +35,9 @@ const ContactPage = () => {
               something extraordinary
             </p>
           </div>
-          <div className="hidden md:flex w-full bg-contact_image_light dark:bg-contact_image_dark bg-contain bg-top bg-no-repeat"></div>
+          <div className="hidden md:flex w-full">
+            <ContactImage />
+          </div>
         </div>
         <div className="grid md:grid-cols-2 pb-20 mx-12">
           <div className="flex flex-col gap-y-4 md:gap-y-14 mb-12 md:mb-24 text-base md:text-lg">

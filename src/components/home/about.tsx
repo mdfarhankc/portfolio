@@ -9,6 +9,7 @@ import {
   QualificationData,
   InfoData,
 } from "@/datas/about";
+import AboutImage from "./about-image";
 
 const About = () => {
   const getData = (
@@ -24,7 +25,7 @@ const About = () => {
         <h2 className="section-title mb-8 text-center mx-auto">About Me</h2>
         <div className="flex flex-col lg:flex-row lg:gap-x-2 mx-5">
           <div className="hidden lg:flex items-center justify-center flex-1 relative">
-            <div className="hidden lg:flex bg-about_light dark:bg-about_dark w-[500px] h-[300px] bg-contain bg-top bg-no-repeat" />
+            <AboutImage />
           </div>
           <div className="flex-1">
             <Tabs defaultValue="personal">
